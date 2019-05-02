@@ -1,0 +1,40 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.b5bdr{
+	border: solid black 0.1rem;
+	height: 2rem;
+	width: 7em;
+	padding: 0.2rem;
+	border-radius: 20px;
+	background-color: black;
+}
+.b5fleft{
+	position: absolute;
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+    z-index: 1;
+    color: #020202;
+}
+.b5btn{
+	position: absolute;
+    background-color: white;
+    height: 1.5rem;
+    width: 3rem;
+    z-index: 0;
+    margin-top: 0.3rem;
+    margin-left: 0.1rem;
+    border-radius: 1.5rem;
+}
+.b5fright{
+	position: absolute;
+    z-index: 1;
+    margin-left: 4.1rem;
+    margin-top: 0.3rem;
+    font-size: 1.3rem;
+    color: rgba(109,109,109,0.75);
+}
